@@ -25,12 +25,12 @@ type Logging struct {
 }
 
 func main() {
-	parsedCsv := parseCsv("simulation_data/device_1.csv")
-	endpoint := "https://logpress.my.id/sensors"
+	parsedCsv := parseCsv("simulation_data/" + os.Getenv("DEVICE") + ".csv")
+	endpoint := os.Getenv("ENDPOINT")
 
 	for {
 		for _, data := range parsedCsv {
-			go sendRequest(endpoint, data)
+			sendRequest(endpoint, data)
 			time.Sleep(1 * time.Second)
 		}
 	}
