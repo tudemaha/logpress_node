@@ -31,7 +31,7 @@ func main() {
 	for {
 		for _, data := range parsedCsv {
 			sendRequest(endpoint, data)
-			time.Sleep(1 * time.Second)
+			time.Sleep(5 * time.Second)
 		}
 	}
 }
