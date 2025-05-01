@@ -1,0 +1,72 @@
+services:
+  device1:
+    image: node-simulation:latest
+    environment:
+      - ENDPOINT=https://logpress.my.id/sensors
+      - DEVICE=device_1
+
+  device2:
+    image: node-simulation:latest
+    environment:
+      - ENDPOINT=https://logpress.my.id/sensors
+      - DEVICE=device_2
+
+  device3:
+    image: node-simulation:latest
+    environment:
+      - ENDPOINT=https://logpress.my.id/sensors
+      - DEVICE=device_3
+
+  device4:
+    image: node-simulation:latest
+    environment:
+      - ENDPOINT=https://logpress.my.id/sensors
+      - DEVICE=device_1
+
+  device5:
+    image: node-simulation:latest
+    environment:
+      - ENDPOINT=https://logpress.my.id/sensors
+      - DEVICE=device_2
+
+  device6:
+    image: node-simulation:latest
+    environment:
+      - ENDPOINT=https://logpress.my.id/sensors
+      - DEVICE=device_3
+
+  device7:
+    image: node-simulation:latest
+    environment:
+      - ENDPOINT=https://logpress.my.id/sensors
+      - DEVICE=device_1
+
+  device8:
+    image: node-simulation:latest
+    environment:
+      - ENDPOINT=https://logpress.my.id/sensors
+      - DEVICE=device_2
+
+  device9:
+    image: node-simulation:latest
+    environment:
+      - ENDPOINT=https://logpress.my.id/sensors
+      - DEVICE=device_3
+
+  device10:
+    image: node-simulation:latest
+    environment:
+      - ENDPOINT=https://logpress.my.id/sensors
+      - DEVICE=device_1
+
+  device11:
+    image: node-simulation:latest
+    environment:
+      - ENDPOINT=https://logpress.my.id/sensors
+      - DEVICE=device_2
+
+  device12:
+    image: node-simulation:latest
+    environment:
+      - ENDPOINT=https://logpress.my.id/sensors
+      - DEVICE=device_3
